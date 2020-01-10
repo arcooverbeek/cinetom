@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('movies', 'MovieController');
+Route::get('/pietje', function () {
+    return view('welcome');
+});
